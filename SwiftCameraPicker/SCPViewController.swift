@@ -226,11 +226,6 @@ public final class SCPViewController: UIViewController, SCPCollectionDelegate , 
         let value = UIDevice.current.orientation
         let orientation = "orientation"
         
-        switch value {
-        case .portraitUpsideDown:
-            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: orientation)
-        default: break
-        }
     }
     
     
