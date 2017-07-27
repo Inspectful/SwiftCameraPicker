@@ -6,7 +6,7 @@ target 'SwiftCameraPicker' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'CameraManager', '~> 3.1' 
+  pod 'CameraManager', :git => 'https://github.com/nmolkeri/CameraManager.git' 
   pod 'CocoaLumberjack/Swift'
 
   target 'SwiftCameraPickerTests' do
