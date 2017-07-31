@@ -12,7 +12,7 @@ target 'SwiftCameraPicker' do
   target 'SwiftCameraPickerTests' do
     inherit! :search_paths
     
-        pod 'CameraManager',  '~> 3.1'
+        pod 'CameraManager', :git => 'https://github.com/Inspectful/CameraManager.git'
   end
   
 end

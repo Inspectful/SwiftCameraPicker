@@ -1,17 +1,26 @@
 PODS:
-  - CameraManager (3.1.1)
+  - CameraManager (3.2.0)
   - CocoaLumberjack/Default (3.1.0)
   - CocoaLumberjack/Swift (3.1.0):
     - CocoaLumberjack/Default
 
 DEPENDENCIES:
-  - CameraManager (~> 3.1)
+  - CameraManager (from `https://github.com/Inspectful/CameraManager.git`)
   - CocoaLumberjack/Swift
 
+EXTERNAL SOURCES:
+  CameraManager:
+    :git: https://github.com/Inspectful/CameraManager.git
+
+CHECKOUT OPTIONS:
+  CameraManager:
+    :commit: ee8cfe031cb5e9207b276067f06912bf6cb311a5
+    :git: https://github.com/Inspectful/CameraManager.git
+
 SPEC CHECKSUMS:
-  CameraManager: e6236452ec87950dde1fd70a8bed938336bb8901
+  CameraManager: be6367a9408d279a54ac30d9772d46063cd0979b
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
 
-PODFILE CHECKSUM: 2065ce17cb2b0e5165efc76af5be514b8371b6a1
+PODFILE CHECKSUM: b76f64f5884b0623e65f509f1ea48ed3101e16c1
 
 COCOAPODS: 1.2.1.beta.1
